@@ -17,27 +17,26 @@ const Body = () => {
                         </tr>
                     </thead>
                     <tbody>
-                        {/* <tr className="bg-white dark:bg-gray-900 border-b dark:border-gray-700">
+                        <tr className="bg-white dark:bg-gray-900 border-b dark:border-gray-700">
                             <th scope="row" className="px-4 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                 30/5/2025
                             </th>
                             <td className="px-4 py-3 text-blue-500">Buy</td>
-                            <td className="px-4 py-3 text-blue-500">TP</td>
-                            <td className="px-4 py-3 text-blue-500">50pip</td>
-                            <td className="px-4 py-3 text-blue-500">+$10</td>
-                            <td className="px-4 py-3 text-blue-500">$60.00</td>
+                            <td className="px-4 py-3 text-blue-500">Close</td>
+                            <td className="px-4 py-3 text-blue-500">+10pips</td>
+                            <td className="px-4 py-3 text-blue-500">+$1.14</td>
+                            <td className="px-4 py-3 text-blue-500">$51.14</td>
                         </tr>
-
                         <tr className="bg-white dark:bg-gray-900 border-b dark:border-gray-700">
                             <th scope="row" className="px-4 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                 30/5/2025
                             </th>
                             <td className="px-4 py-3 text-red-500">Sell</td>
-                            <td className="px-4 py-3 text-red-500">SL</td>
-                            <td className="px-4 py-3 text-red-500">-50pip</td>
-                            <td className="px-4 py-3 text-red-500">-$10</td>
-                            <td className="px-4 py-3 text-red-500">$40.00</td>
-                        </tr> */}
+                            <td className="px-4 py-3 text-blue-500">TP</td>
+                            <td className="px-4 py-3 text-blue-500">+30pips</td>
+                            <td className="px-4 py-3 text-blue-500">+$5.06</td>
+                            <td className="px-4 py-3 text-blue-500">$56.20</td>
+                        </tr>
 
                     </tbody>
                 </table>
