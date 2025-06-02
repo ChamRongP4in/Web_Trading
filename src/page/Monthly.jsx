@@ -4,7 +4,7 @@ const Monthly = () => {
     return (
         <>
             <div className="mt-[200px] mb-[200px] w-full overflow-x-auto">
-                <h1 className=' text-4xl font-bold text-center mt-3'>monthly Summery</h1>
+                <h1 className=' text-4xl font-bold text-center mt-3 mb-3'>monthly Summery</h1>
                 <table className="min-w-[600px] w-full text-sm text-left text-gray-500 dark:text-gray-400">
                     <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                         <tr>
