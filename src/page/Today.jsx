@@ -37,6 +37,46 @@ const Body = () => {
                             <td className="px-4 py-3 text-blue-500">+$5.06</td>
                             <td className="px-4 py-3 text-blue-500">$56.20</td>
                         </tr>
+                        <tr className="bg-white dark:bg-gray-900 border-b dark:border-gray-700">
+                            <th scope="row" className="px-4 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                02/6/2025
+                            </th>
+                            <td className="px-4 py-3 text-blue-500">Buy</td>
+                            <td className="px-4 py-3 text-red-500">SL</td>
+                            <td className="px-4 py-3 text-red-500">-90pips</td>
+                            <td className="px-4 py-3 text-red-500">-$22.68</td>
+                            <td className="px-4 py-3 text-red-500">$33.52</td>
+                        </tr>
+                        <tr className="bg-white dark:bg-gray-900 border-b dark:border-gray-700">
+                            <th scope="row" className="px-4 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                02/6/2025
+                            </th>
+                            <td className="px-4 py-3 text-blue-500">Buy</td>
+                            <td className="px-4 py-3 text-blue-500">TP</td>
+                            <td className="px-4 py-3 text-blue-500">+30pips</td>
+                            <td className="px-4 py-3 text-blue-500">+$5.10</td>
+                            <td className="px-4 py-3 text-blue-500">$38.62</td>
+                        </tr>
+                        <tr className="bg-white dark:bg-gray-900 border-b dark:border-gray-700">
+                            <th scope="row" className="px-4 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                02/6/2025
+                            </th>
+                            <td className="px-4 py-3 text-blue-500">Buy</td>
+                            <td className="px-4 py-3 text-blue-500">Close</td>
+                            <td className="px-4 py-3 text-blue-500">+10pips</td>
+                            <td className="px-4 py-3 text-blue-500">+$1.71</td>
+                            <td className="px-4 py-3 text-blue-500">$40.33</td>
+                        </tr>
+                        <tr className="bg-white dark:bg-gray-900 border-b dark:border-gray-700">
+                            <th scope="row" className="px-4 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                02/6/2025
+                            </th>
+                            <td className="px-4 py-3 text-blue-500">Buy</td>
+                            <td className="px-4 py-3 text-blue-500">TP</td>
+                            <td className="px-4 py-3 text-blue-500">+40pips</td>
+                            <td className="px-4 py-3 text-blue-500">+$8.44</td>
+                            <td className="px-4 py-3 text-blue-500">$48.77</td>
+                        </tr>
 
                     </tbody>
                 </table>

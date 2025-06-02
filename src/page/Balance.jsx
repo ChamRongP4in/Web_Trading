@@ -25,7 +25,7 @@ const Daily = () => {
                             <td className="px-4 py-3 text-white"></td>
                             <td className="px-4 py-3 text-white">$50.00</td>
                             <td className="px-4 py-3 text-white"></td>
-                            <td className="px-4 py-3 text-white">$56.20</td>
+                            <td className="px-4 py-3 text-white">$50.00</td>
                         </tr>
 
                     </tbody>
