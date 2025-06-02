@@ -19,7 +19,7 @@ const Body = () => {
                     <tbody>
                         <tr className="bg-white dark:bg-gray-900 border-b dark:border-gray-700">
                             <th scope="row" className="px-4 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                30/5/2025
+                                02/6/2025
                             </th>
                             <td className="px-4 py-3 text-blue-500">Buy</td>
                             <td className="px-4 py-3 text-blue-500">Close</td>
@@ -29,7 +29,7 @@ const Body = () => {
                         </tr>
                         <tr className="bg-white dark:bg-gray-900 border-b dark:border-gray-700">
                             <th scope="row" className="px-4 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                30/5/2025
+                                02/6/2025
                             </th>
                             <td className="px-4 py-3 text-red-500">Sell</td>
                             <td className="px-4 py-3 text-blue-500">TP</td>
