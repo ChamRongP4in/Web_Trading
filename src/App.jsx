@@ -5,6 +5,7 @@ import Today from './page/Today'
 import Daily from './page/Daily'
 import Monthly from './page/Monthly'
 import Yearly from './page/Yearly'
+import Balance from './page/Balance'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
           <Route path='/daily' element={<Daily />} />
           <Route path='/monthly' element={<Monthly />} />
           <Route path='/yearly' element={<Yearly />} />
+          <Route path='/balance' element={<Balance />} />
         </Routes>
       </BrowserRouter>
       <Footer />
