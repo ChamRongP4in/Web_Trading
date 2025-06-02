@@ -1,4 +1,6 @@
 import React from 'react'
+import Monday from "@assets/02-06-25.png";
+
 
 const Daily = () => {
     return (
@@ -12,6 +14,7 @@ const Daily = () => {
                             <th scope="col" className="px-4 py-3">Winrate</th>
                             <th scope="col" className="px-4 py-3">Profit</th>
                             <th scope="col" className="px-4 py-3">Balance</th>
+                            <th scope="col" className="px-4 py-3">Image</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -22,6 +25,7 @@ const Daily = () => {
                             <td className="px-4 py-3 text-blue-500"></td>
                             <td className="px-4 py-3 text-blue-500"></td>
                             <td className="px-4 py-3 text-blue-500">+$50.00</td>
+                            <td className="px-4 py-3 text-blue-500"></td>
                         </tr>
                         <tr className="bg-white dark:bg-gray-900 border-b dark:border-gray-700">
                             <th scope="row" className=" px-4 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">
@@ -30,6 +34,7 @@ const Daily = () => {
                             <td className="px-4 py-3 text-white">Win5/Lose1</td>
                             <td className="px-4 py-3 text-red-500">-$1.23</td>
                             <td className="px-4 py-3 text-blue-500">$48.77</td>
+                            <td><img src={Monday} alt="monday" /></td>
                         </tr>
 
                     </tbody>
