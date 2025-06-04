@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import Monday from "../../src/assets/02-6-25.png";
 import Tuesday from "../../src/assets/03-6-25.png";
+import Wednesday from "../../src/assets/04-6-25.png";
 
 const Daily = () => {
     const [showMondayImage, setShowMondayImage] = useState(false);
     const [showTuesdayImage, setShowTuesdayImage] = useState(false);
+    const [showWednesdayImage, setShowWednesdayImage] = useState(false);
 
     return (
         <div className="mt-[200px] mb-[200px] w-full overflow-x-auto">
@@ -101,6 +103,48 @@ const Daily = () => {
                             <td colSpan="5" className="px-4 py-3 text-center">
                                 <img
                                     src={Tuesday}
+                                    alt="Tuesday Summary"
+                                    style={{
+                                        maxWidth: '400px',
+                                        height: 'auto',
+                                        border: '1px solid #ccc',
+                                        borderRadius: '8px',
+                                        margin: '10px auto'
+                                    }}
+                                />
+                            </td>
+                        </tr>
+                    )}
+
+                    <tr className="bg-white dark:bg-gray-900 border-b dark:border-gray-700">
+                        <th className="px-4 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            04/6/2025
+                        </th>
+                        <td className="px-4 py-3 text-white">Win4</td>
+                        <td className="px-4 py-3 text-blue-500">+$13.73</td>
+                        <td className="px-4 py-3 text-blue-500">$50.26</td>
+                        <td className="px-4 py-3">
+                            <button
+                                onClick={() => setShowWednesdayImage(prev => !prev)}
+                                style={{
+                                    padding: '8px 12px',
+                                    fontSize: '14px',
+                                    cursor: 'pointer',
+                                    backgroundColor: '#007bff',
+                                    color: 'white',
+                                    border: 'none',
+                                    borderRadius: '4px'
+                                }}
+                            >
+                                {showTuesdayImage ? 'Hide Image' : 'Show Image'}
+                            </button>
+                        </td>
+                    </tr>
+                    {showWednesdayImage && (
+                        <tr className="bg-white dark:bg-gray-900 border-b dark:border-gray-700">
+                            <td colSpan="5" className="px-4 py-3 text-center">
+                                <img
+                                    src={Wednesday}
                                     alt="Tuesday Summary"
                                     style={{
                                         maxWidth: '400px',

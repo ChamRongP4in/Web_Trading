@@ -37,6 +37,16 @@ const Daily = () => {
                             <td className="px-4 py-3 text-white"></td>
                             <td className="px-4 py-3 text-white">$48.77</td>
                         </tr>
+                        <tr className="bg-white dark:bg-gray-900 border-b dark:border-gray-700">
+                            <th scope="row" className=" px-4 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                04/6/2025
+                            </th>
+                            <td className="px-4 py-3 text-white">Win4</td>
+                            <td className="px-4 py-3 text-blue-500">+$13.73</td>
+                            <td className="px-4 py-3 text-white"></td>
+                            <td className="px-4 py-3 text-white">-$50.26</td>
+                            <td className="px-4 py-3 text-white">$50.26</td>
+                        </tr>
 
                     </tbody>
                 </table>
