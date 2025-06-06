@@ -16,15 +16,15 @@ const Body = () => {
                         </tr>
                     </thead>
                     <tbody>
-                        {/* <tr className="bg-white dark:bg-gray-900 border-b dark:border-gray-700">
+                        <tr className="bg-white dark:bg-gray-900 border-b dark:border-gray-700">
                             <th scope="row" className="px-4 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                 04/6/2025
                             </th>
-                            <td className="px-4 py-3 text-blue-500">Sell</td>
-                            <td className="px-4 py-3 text-blue-500">TP</td>
-                            <td className="px-4 py-3 text-blue-500">+10pips</td>
+                            <td className="px-4 py-3 text-blue-500"></td>
+                            <td className="px-4 py-3 text-blue-500"></td>
+                            <td className="px-4 py-3 text-blue-500"></td>
                             <td className="px-4 py-3 text-blue-500">+$2.00</td>
-                        </tr> */}
+                        </tr>
 
                     </tbody>
                 </table>
